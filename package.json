@@ -1,0 +1,20 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "Camel Routes Tests ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:runDefault": "cypress run --spec cypress/integration"
+  },
+  "author": "Wafa",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "cypress-mochawesome-reporter": "^3.1.0"
+  },
+  "dependencies": {
+    "browserlist": "^1.0.1",
+    "caniuse-lite": "^1.0.30001352"
+  }
+}
